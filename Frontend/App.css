@@ -29,7 +29,7 @@
   padding: 30px 30px; /* padding for bigger button */
   border-radius: 10px; /* rounded corners */
   border: none; /* remove border */
-    font-family: "comic-sans", comic-sans; /* sportive font */
+    font-family: "Arial", Arial; /* sportive font */
   font-weight: bold; 
   text-align: center;
   line-height: 50px;
@@ -38,7 +38,7 @@
 .imagem-pag1{
   width: 40;
   display:flexbox;
-  
+
 
 }
 .sportive-button hover {
