@@ -1,15 +1,15 @@
-main {
+.main {
 
   text-align: center;
   vertical-align: center;
   line-height: 100vh;
 }
-  body {background-color= #228B22;}
+  .body {background-color: #228B22;}
 
-apresentaçao{
+.apresentaçao{
     display: flex;
   justify-content: center;
-  align-itens: center;
+  align-items: center;
   background-color: #006400; /* green color */
   color: white; /* text color */
   font-size: 20px; /* large font size */
@@ -19,10 +19,10 @@ apresentaçao{
     font-family: "comic-sans", comic-sans; /* sportive font */
 }
 
-botao-primeira-pagina {
+.botao-primeira-pagina {
   display: flex;
   justify-content: center;
-  align-itens: center;
+  align-items: center;
   background-color: #006400; /* green color */
   color: white; /* text color */
   font-size: 20px; /* large font size */
@@ -31,15 +31,21 @@ botao-primeira-pagina {
   border: none; /* remove border */
     font-family: "comic-sans", comic-sans; /* sportive font */
   font-weight: bold; 
-  text-allign: center;
+  text-align: center;
   line-height: 50px;
   
 }
-sportive-button: hover {
+.imagem-pag1{
+  width: 40;
+  display:flexbox;
+  
+
+}
+.sportive-button hover {
   background-color: #d70f0f; /* darker green color on hover */
   cursor: pointer; /* change cursor to pointer */
 }
-sportive-button {
+.sportive-button {
   background-color: white;
   border: none;
   font-size: 20px;
@@ -48,4 +54,4 @@ sportive-button {
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
-apresentaçao{}
+}

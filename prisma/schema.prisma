@@ -11,7 +11,7 @@ datasource db {
 }
 
 model ListaTime {
-  id           String @id @default
+  id           String @id 
   title        String
   codTime      String @unique
   NumJogadores Int
