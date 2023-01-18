@@ -1,0 +1,51 @@
+main {
+
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+}
+  body {background-color= #228B22;}
+
+apresentaçao{
+    display: flex;
+  justify-content: center;
+  align-itens: center;
+  background-color: #006400; /* green color */
+  color: white; /* text color */
+  font-size: 20px; /* large font size */
+  padding: 30px 30px; /* padding for bigger button */
+  border-radius: 10px; /* rounded corners */
+  border: none; /* remove border */
+    font-family: "comic-sans", comic-sans; /* sportive font */
+}
+
+botao-primeira-pagina {
+  display: flex;
+  justify-content: center;
+  align-itens: center;
+  background-color: #006400; /* green color */
+  color: white; /* text color */
+  font-size: 20px; /* large font size */
+  padding: 30px 30px; /* padding for bigger button */
+  border-radius: 10px; /* rounded corners */
+  border: none; /* remove border */
+    font-family: "comic-sans", comic-sans; /* sportive font */
+  font-weight: bold; 
+  text-allign: center;
+  line-height: 50px;
+  
+}
+sportive-button: hover {
+  background-color: #d70f0f; /* darker green color on hover */
+  cursor: pointer; /* change cursor to pointer */
+}
+sportive-button {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+apresentaçao{}
